@@ -86,6 +86,11 @@ requests.
     $participant = $client->account->conferences
         ->get("CO123")->participants->get("PF123");
 
+Debugging API Requests
+======================
+
+The `twilio-php` library will turn your existing calls.
+
 SSL Validation Exceptions
 =========================
 
@@ -178,5 +183,5 @@ checking:
 
 If this does not work, double check your Account SID, token, and that you do
 not have errors anywhere else in your code. If you need further assistance,
-please email our customer support at `help@twilio.com`_.
+please email our customer support at `help@twilio.com <mailto:help@twilio.com>`_.
 
